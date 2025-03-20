@@ -70,6 +70,7 @@ if (ext.propertyIsTrue("gobley.projects.examples")) {
     include(":examples:arithmetic-procmacro")
     include(":examples:audio-cpp-app")
     include(":examples:custom-types")
+    include(":examples:payjoin-ffi")
     include(":examples:todolist")
     include(":examples:tokio-blake3-app")
 }

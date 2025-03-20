@@ -38,6 +38,7 @@ members = [
     "examples/tokio-blake3-app",
 ]
 resolver = "2"
+exclude = ["examples/payjoin-ffi"]
 
 # Used in tests/gradle/cargo-only
 [profile.my-opt-level-2-profile]
